@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 329312952 -- Put Here Your Bot ID
+our_id = 275359675 -- Put Here Your Bot ID
 URL = require "socket.url"
 http = require "socket.http"
 https = require "ssl.https"
@@ -87,26 +87,33 @@ function create_config( )
     "expiretime",
     "mute-time",
     "del",
-	"lock-fosh"
+	"lock-fosh",
+    "linkpv",
+    "id",
+    "ping",
+    "filter",
+    "share",
+    "write",
+    "time"
 	
  },
-    sudo_users = {223445853,359755775},
+    sudo_users = {223445853},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
+    info_text = [[》
 
 🔰Our channel :
-》@permag_bots《
+》@ZaqChannel《
 
-🔰Our channel2 :
-》@permag_ir《
+🔰Id RoBot :
+》@Star_Wars_RoBot《
 
-🔰Our channel3 :
-》@permag《
+🔰Id SuDo :
+》@Dany_Typer《
 
-🔰Our website :
-》http://permag.ir
+🔰Server Tikweb :
+》http://tikweb.ir
 ]],
   }
   serialize_to_file(config, './data/config.lua')
@@ -894,7 +901,3 @@ elseif msg.content_.ID == "MessageGame" then
   end
 
 end
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
