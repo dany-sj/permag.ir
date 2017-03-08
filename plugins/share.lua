@@ -13,7 +13,8 @@ end
 
 return {
 patterns ={
-"^[!#/](botnumber)$"
+"^([Bb]otnumber)$",
+"^(شماره)$"
 
 },
 run = run
