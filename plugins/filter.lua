@@ -106,10 +106,10 @@ end
 
 return {
   patterns = {
-	"^([!/#])([Ff][Ii][Ll][Tt][Ee][Rr]) (.*)$",
-	"^([!/#])([Uu][Nn][Ff][Ii][Ll][Tt][Ee][Rr]) (.*)$",
-    "^([!/#])([Ff][Ii][Ll][Tt][Ee][Rr][Ll][Ii][Ss][Tt])$",
-    "^([!/#])([Cc][Ll][Ee][Aa][Nn]) ([Ff][Ii][Ll][Tt][Ee][Rr][Ll][Ii][Ss][Tt])$",
+	"^([Ff][Ii][Ll][Tt][Ee][Rr]) (.*)$",
+	"^([Uu][Nn][Ff][Ii][Ll][Tt][Ee][Rr]) (.*)$",
+    "^([Ff][Ii][Ll][Tt][Ee][Rr][Ll][Ii][Ss][Tt])$",
+    "^([Cc][Ll][Ee][Aa][Nn]) ([Ff][Ii][Ll][Tt][Ee][Rr][Ll][Ii][Ss][Tt])$",
   },
   run = run, 
   pre_process = pre_process
