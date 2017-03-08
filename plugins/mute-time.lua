@@ -28,13 +28,10 @@ local function run(msg, matches)
 end
 return {
    patterns = {
-      '^[/!#]([Mm][Tt])$',
-      '^[/!#]([Uu][Nn][Mm][Tt])$',
-	  '^[/!#]([Mm][Tt]) (%d+) (%d+)$',
+      '^([Mm][Tt])$',
+      '^([Uu][Nn][Mm][Tt])$',
+	  '^([Mm][Tt]) (%d+) (%d+)$',
  },
   run = run,
   pre_process = pre_process
 }
--- http://permag.ir
--- @permag_ir
--- @permag_bots
