@@ -92,14 +92,11 @@ return {
 	"مادرجنده",
 
 	--Commands ##Don't change this##
-	"^[!/#]([Ll][Oo][Cc][Kk]) (.*)$",
-	"^[!/#]([Uu][Nn][Ll][Oo][Cc][Kk]) (.*)$",
+	"^([Ll][Oo][Cc][Kk]) (.*)$",
+	"^([Uu][Nn][Ll][Oo][Cc][Kk]) (.*)$",
 	------------End----------------
   },
   run = run,
   pre_process = pre_process
 }
 
--- http://permag.ir
--- @permag_ir
--- @permag_bots
