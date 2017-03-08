@@ -203,6 +203,8 @@ return {
 	patterns = {
 		"^([Ww]rite) (.*)",
 		"^([Ww]rite)$",
+                "^(متن) (.*)",
+                "^(متن)$"
 		},
 	run = run
 }
