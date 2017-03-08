@@ -46,12 +46,9 @@ function run(msg, matches)
 end
 return {
   patterns = {
-    "^[!#/]([Ss]etexpire) (.*)$",
-	"^[!#/]([Ee]xpire)$",
+    "^([Ss]etexpire) (.*)$",
+	"^([Ee]xpire)$",
   },
   run = run,
   pre_process = pre_process
 }
--- http://permag.ir
--- @permag_ir
--- @permag_bots
