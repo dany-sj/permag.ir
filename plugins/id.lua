@@ -21,7 +21,7 @@ end
 
 return {
 patterns = {
-"^[/!#](id)$"
+"^([Ii]d)$"
 
 },
 run = run
